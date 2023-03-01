@@ -2,16 +2,39 @@
 ito yung pag gamit ng ':' sa selector.
 */
 
-h2:hover{
+
+/* color ng di pa napipindut yung link */
+/* #google-link:link{
+    color: purple;
+} */
+
+/* color na na visit na yung link */
+/* #google-link:visited{
+    color: red;
+} */
+
+/* advance selector */
+
+/* ibig sabihin ng css code na to ay sa kada 'a' tag 
+na nasa ilalim or kasunod ni 'h2' ay ito ang styles */
+h2 + a {
     color: red;
 }
 
-/* color ng di pa napipindut yung link */
-#google-link:link{
-    color: purple;
+/* ito naman dapat same parent sila at textarea muna bago yung button
+Hindi gagana to kung nauna ang button kesa sa textarea sa html code */
+textarea ~ button {
+    color:purple;
 }
 
-/* color na na visit na yung link */
-#google-link:visited{
+/* sa kada child na li sa loob ng ul  
+hindi gagana if child ng child niya yung li. */
+ul > li {
+    color: blue;
+}
+
+/* ito naman lahat ng li sa loob ng ul mag iiba talaga 
+kulay kahit apo niya yung li mag aaply parin yung styles */
+ul li {
     color: red;
 }
