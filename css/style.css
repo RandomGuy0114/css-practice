@@ -1,9 +1,13 @@
-/* units is the sizing 
-px
-em
-pc
-vw
-vh
+body{
 
-at marami pang iba.
-*/
+    /* capital yung font or pailiitin */
+    text-transform: capitalize;
+
+    /* align ng text  center,justify, right, left */
+    text-align: justify;
+}
+.link{
+
+    /* removing the line in the link */
+    text-decoration: none;
+}
