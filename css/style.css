@@ -1,10 +1,20 @@
 
+
 #service-image {
     height: 400px;
     width: 70%;  
     
     background-size: cover;
 
-    /* using degree */
-    background:linear-gradient(160deg, rgb(86, 105, 115), rgb(81, 209, 38));
-    }
+    /* using radial-gradient*/
+
+    /* background:radial-gradient(red,blue,green)  */
+
+    /* with kung ano ang sakop ng kulay. */
+    /* background:radial-gradient(red 20%,blue 10%,green 50%)  */
+
+      /* with kung ano ang shape ng kulay. */
+    background:radial-gradient(circle,red 20%,blue 10%,green 50%) 
+
+
+}
