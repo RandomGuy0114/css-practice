@@ -4,5 +4,7 @@
     width: 70%;  
     
     background-size: cover;
-    background:linear-gradient(to left top , rgb(86, 105, 115), rgb(81, 209, 38));
+
+    /* using degree */
+    background:linear-gradient(160deg, rgb(86, 105, 115), rgb(81, 209, 38));
     }
