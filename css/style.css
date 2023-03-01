@@ -5,6 +5,17 @@ body{
 
     /* align ng text  center,justify, right, left */
     text-align: justify;
+
+    /* size ng mga texts */
+    font-size: 1.25em;
+
+    /* yung pag ka kapal ng text */
+    font-weight: 600;
+
+    /* yung mga italic, bold, oblique */
+    font-style: italic;
+    
+    font-family: sans-serif;
 }
 .link{
 
