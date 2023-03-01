@@ -5,3 +5,13 @@ ito yung pag gamit ng ':' sa selector.
 h2:hover{
     color: red;
 }
+
+/* color ng di pa napipindut yung link */
+#google-link:link{
+    color: purple;
+}
+
+/* color na na visit na yung link */
+#google-link:visited{
+    color: red;
+}
