@@ -1,0 +1,7 @@
+/* pseudoselectors 
+ito yung pag gamit ng ':' sa selector.
+*/
+
+h2:hover{
+    color: red;
+}
