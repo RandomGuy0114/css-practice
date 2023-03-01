@@ -1,62 +1,8 @@
-/* pseudoselectors 
-ito yung pag gamit ng ':' sa selector.
-*/
 
-
-/* color ng di pa napipindut yung link */
-/* #google-link:link{
-    color: purple;
-} */
-
-/* color na na visit na yung link */
-/* #google-link:visited{
-    color: red;
-} */
-
-/* advance selector */
-
-/* ibig sabihin ng css code na to ay sa kada 'a' tag 
-na nasa ilalim or kasunod ni 'h2' ay ito ang styles */
-/* h2 + a {
-    color: red;
-} */
-
-/* ito naman dapat same parent sila at textarea muna bago yung button
-Hindi gagana to kung nauna ang button kesa sa textarea sa html code */
-/* textarea ~ button {
-    color:purple;
-} */
-
-/* sa kada child na li sa loob ng ul  
-hindi gagana if child ng child niya yung li. */
-/* ul > li {
-    color: blue;
-} */
-
-/* ito naman lahat ng li sa loob ng ul mag iiba talaga 
-kulay kahit apo niya yung li mag aaply parin yung styles */
-/* ul li {
-    color: red;
-} */
-
-
-/* Attributes selector */
-
-/* bale yung mha h2 na merong class subtitle lang mag aaply yung styles
-hindi lang class pwede ilagay jaan pwede ring src, value, id at iba pa...
-*/
-h2[class=subtitle]{
-    color: red;
-}
-
-/* sa kada img na merong path na nag sisimula sa ../img/ 
-hindi gagana kapag = lang nilagay kaya dapat ilagay ^
-hindi lang ^ ito yung pwede gamitin meron ding * . */
-img[src^="../img/"]{
-    border: 10px solid black;
-}
-
-
-h2[class~=article-subtitle]{
-  background-color: green;
-}
+#service-image {
+    height: 400px;
+    width: 70%;  
+    
+    background-size: cover;
+    background:linear-gradient(to left top , rgb(86, 105, 115), rgb(81, 209, 38));
+    }
