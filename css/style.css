@@ -1,23 +1,13 @@
-body{
+body {
 
-    /* capital yung font or pailiitin */
-    text-transform: capitalize;
+/* https://fonts.google.com/ */
 
-    /* align ng text  center,justify, right, left */
-    text-align: justify;
-
-    /* size ng mga texts */
-    font-size: 1.25em;
-
-    /* yung pag ka kapal ng text */
-    font-weight: 600;
-
-    /* yung mga italic, bold, oblique */
-    font-style: italic;
-    
-    font-family: sans-serif;
+    /* font-family: 'Merriweather', serif; */
+    /* font-family: 'Nunito Sans', sans-serif; */
+    /* font-family: 'Roboto Mono', monospace; */
 }
-.link{
+
+.link {
 
     /* removing the line in the link */
     text-decoration: none;
